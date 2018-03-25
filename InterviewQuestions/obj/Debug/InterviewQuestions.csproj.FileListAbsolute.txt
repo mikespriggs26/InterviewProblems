@@ -1,0 +1,6 @@
+c:\users\mike\documents\visual studio 2017\Projects\InterviewQuestions\InterviewQuestions\bin\Debug\InterviewQuestions.exe.config
+c:\users\mike\documents\visual studio 2017\Projects\InterviewQuestions\InterviewQuestions\bin\Debug\InterviewQuestions.exe
+c:\users\mike\documents\visual studio 2017\Projects\InterviewQuestions\InterviewQuestions\bin\Debug\InterviewQuestions.pdb
+c:\users\mike\documents\visual studio 2017\Projects\InterviewQuestions\InterviewQuestions\obj\Debug\InterviewQuestions.csprojResolveAssemblyReference.cache
+c:\users\mike\documents\visual studio 2017\Projects\InterviewQuestions\InterviewQuestions\obj\Debug\InterviewQuestions.exe
+c:\users\mike\documents\visual studio 2017\Projects\InterviewQuestions\InterviewQuestions\obj\Debug\InterviewQuestions.pdb
