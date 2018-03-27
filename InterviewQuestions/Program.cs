@@ -61,24 +61,54 @@ namespace InterviewQuestions
 
 
             //Produces all Armstrong numbers between 1 and 1000
-            int numa = 0;
-            int numab = 0;
-            int numb = 0;
-            int numc = 0;
+            //int numa = 0;
+            //int numab = 0;
+            //int numb = 0;
+            //int numc = 0;
 
-            for (int i = 100; i < 1000; i++)
+            //for (int i = 100; i < 1000; i++)
+            //{
+            //    numc = i % 10;//last digit 1
+            //    numab = i / 10;//first two digits  37
+            //    numb = numab % 10; //middle digit 7
+            //    numa = numab / 10;//first digit
+
+            //    if(numa * numa * numa + numb * numb * numb + numc * numc * numc == i)
+            //    {
+            //        Console.WriteLine(i + " is an Armstrong number");
+            //    }
+            //}
+
+
+            //Check to see if a number is a palindrome.
+            //Console.WriteLine("Please enter a number: ");
+            //string userInt = Console.ReadLine();
+            //string userIntReversed = "";
+            //for (int i = userInt.Length - 1; i >= 0; i--)
+            //{
+            //    userIntReversed += userInt[i];
+            //}
+            //if (userIntReversed == userInt)
+            //{
+            //    Console.WriteLine("Your number is a palindrome!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not a palindrome.");
+            //}
+
+
+            //Determine if a number is prime or not
+            Console.WriteLine("Please enter a number: ");
+            int userNum = int.Parse(Console.ReadLine());
+            for (int i = 2; i < userNum; i++)
             {
-                numc = i % 10;//last digit 1
-                numab = i / 10;//first two digits  37
-                numb = numab % 10; //middle digit 7
-                numa = numab / 10;//first digit
-               
-                if(numa * numa * numa + numb * numb * numb + numc * numc * numc == i)
+                if (userNum % i == 0)
                 {
-                    Console.WriteLine(i + " is an Armstrong number");
+                    Console.WriteLine("Your number is not prime");
+                    break;
                 }
             }
-
 
 
         }
