@@ -92,24 +92,41 @@ namespace InterviewQuestions
             //{
             //    Console.WriteLine("Your number is a palindrome!");
             //}
-            //else
+            //else 
             //{
             //    Console.WriteLine("Not a palindrome.");
             //}
 
 
             //Determine if a number is prime or not
-            Console.WriteLine("Please enter a number: ");
-            int userNum = int.Parse(Console.ReadLine());
-            for (int i = 2; i < userNum; i++)
+            //Console.WriteLine("Please enter a number: ");
+            //int userNum = int.Parse(Console.ReadLine());
+            //for (int i = 2; i < userNum; i++)   
+            //{
+            //    if (userNum % i == 0)
+            //    {
+            //        Console.WriteLine("Your number is not a prime number");
+            //        break;
+            //    }
+            //    if (i == userNum - 1)
+            //    {
+            //        Console.WriteLine("Your number is a prime number");
+            //    }
+
+            //}
+
+
+            //Find the highest int in an array
+            int[] myArray = { 10, 20, 30, 40, 50, 60 };
+            int myInt = 0;
+            for (int i = 0; i <= myArray.Length -1; i++)
             {
-                if (userNum % i == 0)
+                if(myArray[i] > myInt)
                 {
-                    Console.WriteLine("Your number is not prime");
-                    break;
+                    myInt = myArray[i];
                 }
             }
-
+            Console.WriteLine("The greatest value is: " + myInt);
 
         }
     }
